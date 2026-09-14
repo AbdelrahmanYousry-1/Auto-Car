@@ -732,7 +732,7 @@ img_about.className = 'img_about'
 /*if(window.innerWidth <= 1441){
 img_about.src = 'p13.png'
 } else {*/
-    img_about.src = 'v15.mp4'
+    img_about.src = 'https://github.com/AbdelrahmanYousry-1/Auto-Car/releases/download/videos-v1/p15.mp4.mp4'
 //}
     img_about.autoplay = true;
     img_about.muted = true;
