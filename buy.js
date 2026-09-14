@@ -561,7 +561,7 @@ window.addEventListener('load' , function(){
 
 let footer = document.createElement('footer')
 footer.className = 'footer'
-document.body.appendChild(footer)
+document.body.append(footer)
 
 
 

@@ -117,7 +117,7 @@
 
 body{
     width: 100%;
-    height: 200vw;
+    height: 170vw;
     background-image: url('bg4.jpg');
     background-size: cover;
     background-position: center;
@@ -139,12 +139,16 @@ body > *{
     z-index: 1;
 }
 .body-height{
-    height: 200vh;
+    height: 183vh;
 }
 .body-height2{
-    height: 175vh;
+    height: 153vh;
 }
-
+/*.div_container{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
 .div_buy{
     background-color: #C4C4C4;
     width: 65%;
@@ -153,7 +157,7 @@ body > *{
     justify-content: center;
     align-content: center;
     margin-top: 0px;
-    margin-left: 12%;
+    margin-left: -10%;
     margin-bottom: 20px;
 
     
@@ -176,14 +180,14 @@ body > *{
     font-size: 35px;
     
 
-            transform: translatey(-100vw);
+        /*    transform: translatey(-100vw);
     transition: 2s;
-    opacity: 0;
+    opacity: 0;*/
 }
-.title_show{
+/*.title_show{
         transform: translatey(0) scale(1);
     opacity: 1;
-}
+}*/
 .img{
     height: 120%;
      width: 120% ;
@@ -191,19 +195,19 @@ body > *{
        display:block ;
         border-radius: 5px 5px 0 0 ;
         
-        transform: translatey(-100vw);
+      /*  transform: translatey(-100vw);
     transition: 2s;
-    opacity: 0;
+    opacity: 0;*/
     
 }
-.img_show{
+/*.img_show{
         transform: translatey(0) scale(1);
     opacity: 1;
-}
+}*/
 .div_data{
     width: 76%;
     margin-top: 10px;
-    margin-left: 10%;
+   /* margin-left: 10%;*/
     border-radius: 10px;
 box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
     margin-bottom: -100px;
@@ -211,19 +215,20 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
         padding-top: 5px;
         padding-right: 20px;
         background:  linear-gradient(90deg, #333333, #555555, #333333);
+        
 
-                transform: translatey(100vw);
+   /*             transform: translatey(100vw);
     transition: 2s;
-    opacity: 0;
+    opacity: 0;*/
     
 
 /*#689ce7*/
 
 }
-.data_show{
+/*.data_show{
         transform: translatey(0) scale(1);
     opacity: 1;
-}
+}*/
 .div_button{
     display: flex;
     justify-content: center;
@@ -235,7 +240,7 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
 .button_card , .button_cash{
 
     padding: 5px 10px ;
-    border: 2px solid #C4C4C4;
+    border: 2px solid transparent;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
@@ -342,7 +347,7 @@ height: 25px;
     margin-top: 30px;
     margin-left: 36%;
     cursor: pointer;
-    color: #A6800D;
+    color: white;
 }
 
 .img_card{
@@ -589,7 +594,7 @@ display: none;
 
 body{
     width: 100%;
-    height: 180vw;
+    height: 166vw;
     background-image: url('bg4.jpg');
     background-size: cover;
     background-position: center;
@@ -611,7 +616,7 @@ body > *{
     z-index: 1;
 }
 .body-height{
-    height: 200vh;
+    height: 193vh;
 }
 .body-height2{
     height: 170vh;
@@ -624,7 +629,7 @@ body > *{
     justify-content: center;
     align-content: center;
     margin-top: 15px;
-    margin-left: 7%;
+  /*  margin-left: 7%;*/
 
     
     overflow: hidden;
@@ -647,13 +652,13 @@ body > *{
     font-size: 37px;
     
 
-            transform: translatey(-100vw);
+   /*         transform: translatey(-100vw);
     transition: 2s;
     opacity: 0;
-}
-.title_show{
+}*/
+/*.title_show{
         transform: translatey(0) scale(1);
-    opacity: 1;
+    opacity: 1;*/
 }
 .img{
     height: 100%;
@@ -662,19 +667,19 @@ body > *{
        display:block ;
         border-radius: 5px 5px 0 0 ;
         
-        transform: translatey(-100vw);
+    /*    transform: translatey(-100vw);
     transition: 2s;
-    opacity: 0;
+    opacity: 0;*/
     
 }
-.img_show{
+/*.img_show{
         transform: translatey(0) scale(1);
     opacity: 1;
-}
+}*/
 .div_data{
     width: 76%;
     margin-top: 10px;
-    margin-left: 10%;
+  /*  margin-left: 10%;*/
     border-radius: 10px;
 box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
     margin-bottom: -100px;
@@ -683,17 +688,17 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
         padding-right: 20px;
         background: linear-gradient(90deg, #333333, #555555, #333333);
 
-                transform: translatey(100vw);
+    /*            transform: translatey(100vw);
     transition: 2s;
-    opacity: 0
+    opacity: 0*/
 
 /*#689ce7*/
 
 }
-.data_show{
+/*.data_show{
         transform: translatey(0) scale(1);
     opacity: 1;
-}
+}*/
 .div_button{
     display: flex;
     justify-content: center;
@@ -705,7 +710,7 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
 .button_card , .button_cash{
 
     padding: 5px 10px ;
-    border: 2px solid #C4C4C4;
+    border: 2px solid transparent;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
@@ -1016,7 +1021,7 @@ background-color: #C4C4C4;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: auto;
     margin-top: 0;
     padding-top: 95px;
     position: relative;
@@ -1063,7 +1068,7 @@ body::before{
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(103, 108, 123, 0.1);
+    background: rgba(103, 108, 123, 0);
 }
 
 body > *{
@@ -1084,7 +1089,7 @@ body > *{
     justify-content: center;
     align-content: center;
     margin-top: 30px;
-    margin-left: 11%;
+   /* margin-left: 11%;*/
 
     
     overflow: hidden;
@@ -1134,7 +1139,7 @@ body > *{
 .div_data{
     width: 70%;
     margin-top: 30px;
-    margin-left: 14%;
+  /*  margin-left: 14%;*/
     border-radius: 10px;
 box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
     margin-bottom: -100px;
@@ -1474,7 +1479,7 @@ height: 25px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: auto;
     margin-top: 0;
     padding-top: 95px;
     position: relative;
@@ -1521,7 +1526,7 @@ body::before{
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(103, 108, 123, 0.1);
+    background: rgba(103, 108, 123, 0);
 }
 
 body > *{
@@ -1542,7 +1547,7 @@ body > *{
     justify-content: center;
     align-content: center;
     margin-top: 30px;
-    margin-left: 16%;
+  /*  margin-left: 16%;*/
 
     
     overflow: hidden;
@@ -1594,7 +1599,7 @@ body > *{
     width: 56%;
     height: auto;
     margin-top: 30px;
-    margin-left: 21%;
+   /* margin-left: 21%;*/
     border-radius: 10px;
 box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
     margin-bottom: -100px;
@@ -1938,7 +1943,7 @@ background-color: #C4C4C4;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: auto;
 
     margin-top: 0;
     padding-top:110px;
@@ -2023,7 +2028,7 @@ body > *{
     justify-content: center;
     align-content: center;
     margin-top: 30px;
-    margin-left: 430px;
+  /*  margin-left: 430px;*/
 
     
     overflow: hidden;
@@ -2045,7 +2050,7 @@ body > *{
     color: #000000;
     border-radius: 50%;
     padding: 80px 40px;*/
-    margin-left: 70px;
+   /* margin-left: 70px;*/
     font-size: 55px;
     margin-bottom: 0;
     margin-top: 0;
@@ -2079,7 +2084,7 @@ body > *{
 .div_data{
     width: 700px;
     margin-top: 20px;
-    margin-left: 430px;
+  /* margin-left: 430px;*/
     /*  border: 2px solid #0055cc;*/
     border-radius: 10px;
     box-shadow: 0 4px 12px rgb(0, 0, 0);
@@ -2368,3 +2373,84 @@ height: 25px;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: visible !important;
+}
+
+body.body-height,
+body.body-height2 {
+    height: auto !important;
+    min-height: 100dvh;
+}
+
+
+
+
+.div_container {
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.div_data {
+    height: auto;
+    min-height: 0;
+    margin-bottom: 20px;
+    overflow: visible;
+}
+
+
+
+.div_container{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+
+
+
+    .home{
+    background-attachment: auto !important;
+
+} 
