@@ -747,7 +747,7 @@ sec_img.appendChild(img_about)
 
 
 
-
+//0
 
 
 
