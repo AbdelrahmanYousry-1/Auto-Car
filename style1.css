@@ -4412,6 +4412,7 @@ left: 15px;
         gap: 25px !important;
 
         padding: 40px 20px !important;
+        padding-top: 20px !important;
 
         margin: 0 !important;
 
@@ -4445,6 +4446,7 @@ left: 15px;
 
         padding: 0 !important;
         margin: 0 12px 0 0 !important;
+        margin-top: 20px !important;
 
         object-fit: contain !important;
     }
