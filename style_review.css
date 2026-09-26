@@ -202,23 +202,23 @@ body > *{
 .h2_tasks{
     text-align: center;
     color: black;
-}
-.div_data{
+}.div_data{
     display: flex;
     flex-direction: row;
     gap: 10px;
     background-color: white;
     justify-content: space-between;
     align-items: center;
-    margin-right: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .text{
     padding-top: 0px;
     padding-bottom: 10px;
-    margin-left: 15px;
-    width: 120px;
+    margin-left: 0px;
+    width: 150px;
 }
 .btn_del{
     padding: 8px 14px;
@@ -227,11 +227,8 @@ body > *{
     font-size: 9px;
     background-color: rgb(180, 29, 29);
     color: white;
-    margin-right: 15px;
-    margin-left: 400px;
-
-    cursor: pointer;    
-
+    margin-right: 0px;
+    cursor: pointer;
 }
 .show{
     display: none;
