@@ -1,3 +1,376 @@
+
+
+
+
+@media(max-width:480px){
+
+.nav{
+    background: linear-gradient(90deg, #000000, #000000, #353535, #353535, #fffffe);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.button_nav{
+    border: none;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: transparent; 
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100vw);
+    transition: 1.5s;
+    opacity: 0;
+    display: none;
+}
+.button_nav_show{
+    transform: translateX(0) scale(1);
+    opacity: 1;    
+}
+.img_button{
+    width: 120%;
+    height: 120%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.title_nav{
+    color: black;
+    font-size: 1.4em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 0px;
+    transform: translateX(100vw);
+    transition: 2.5s;
+    opacity: 0;
+}
+.span_logo{
+    color: white;
+}
+.title_nav_show{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+}
+.div_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 8px;
+}
+.img_logo{
+    width: 65px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ====== قسم الهوم (Home) ====== */
+.home{
+    width: 100%;
+    min-height: 40vh;
+    background-image: url('h_b.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin-top: 0;
+    padding-top: 75px;
+    position: relative;
+    overflow: hidden;
+}
+.home::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    display: none;
+}
+.home > *{
+    position: relative;
+    z-index: 1;
+}
+.title_home{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 8px;
+    margin-top: -10px;
+    color: #A6800D;
+}
+.p_home{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding: 0 15px;
+}
+/* ====== نهاية قسم الهوم ====== */
+
+body{
+    width: 100%;
+    height: 185vw;
+    background-image: url('bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(103, 108, 123, 0.1);
+}
+body > *{
+    position: relative;
+    z-index: 1;
+}
+.body-height{
+    height: 190vh;
+}
+.body-height2{
+    height: 158vh;
+}
+.div_buy{
+    background-color: #C4C4C4;
+    width: 70%;
+    height: 35%;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    background-color: transparent;
+    margin-right: 40px;
+}
+.div_text{
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+}
+.title_about{
+    padding-left: 20px;
+    font-size: 28px;
+}
+.img{
+    height: 120%;
+    width: 120%;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px 5px 0 0;
+}
+.div_data{
+    width: 82%;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
+    margin-bottom: -100px;
+    padding-bottom: 12px;
+    padding-top: 5px;
+    padding-right: 15px;
+    background: linear-gradient(90deg, #333333, #555555, #333333);
+}
+.div_button{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-right: 0px;
+    padding-left: 15px;
+}
+.button_card , .button_cash{
+    padding: 5px 8px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.button_card{
+    padding: 15px 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    margin-right: 5%;
+    padding-top: 5px;
+    text-align: left;
+    width: 92%;
+    height: 28px;
+    background-color: #DBDBDB;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 8px; 
+    font-size: 0.9em;
+    color: white;
+}
+.div_inputs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+    margin-top: 15px;
+    column-gap: 18%;
+}
+.div_cvv{
+    display: flex;
+    flex-direction: column;
+}
+.div_date_{
+    display: flex;
+    flex-direction: column;
+}
+.div_MM{
+    margin-top: 20px;
+}
+.label_cvv{
+    text-align: center;
+    padding-bottom: 5px;
+    color: white;
+}
+.input_cvv{
+    width: 45px;
+    height: 22px;
+    background-color: #DBDBDB;
+}
+.label_date{
+    text-align: center;
+    padding-bottom: 5px;
+    color: white;
+}
+.input_date{
+    width: 45px;
+    height: 22px;
+    background-color: #DBDBDB;
+}
+.input_MM{
+    width: 45px;
+    height: 22px;
+    background-color: #DBDBDB;
+}
+.button_buy{
+    padding: 8px 30px;
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 32%;
+    cursor: pointer;
+    color: white;
+}
+.img_card{
+    width: 26px;
+    height: 26px;
+}
+.button_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.button_cash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.img_cash{
+    width: 26px;
+    height: 26px;
+    padding-left: 0px;
+    margin-bottom: 6px;
+}
+.div_icone{
+    position: relative;
+}
+.img2_card{
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.form_hidden{
+    display: none;
+}
+.active{
+    background-color: black;
+    color: white;
+}
+.footer{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 9px;
+    text-align: center; 
+    color: #999999; 
+    background-color: black;
+    margin-top: auto;
+}
+.h3_footer{
+    padding-bottom: 0px;
+    padding-top: 20px;
+    margin-top: 15px;
+}
+.list_footer{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    column-gap: 18px;
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+    padding-bottom: 15px;
+}
+.fa-facebook ,
+.fa-instagram ,
+.fa-whatsapp ,
+.fa-tiktok ,
+.fa-linkedin ,
+.fa-user-tie ,
+.fa-comment ,
+.fa-star ,
+.fa-location-dot {
+    font-size: 17px;
+    color: #999999;
+}
+.hr3{ 
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:481px) and (max-width:576px){
 
 .nav{
