@@ -662,7 +662,7 @@ sec_text.appendChild(g_text)
 
 let title_about = document.createElement('h2')
 title_about.className = 'title_about'
-title_about.textContent = 'About AutoElite'
+title_about.textContent = 'About AutoCar'
 g_text.appendChild(title_about)
 
 let p_about = document.createElement('p')
@@ -732,7 +732,7 @@ img_about.className = 'img_about'
 /*if(window.innerWidth <= 1441){
 img_about.src = 'p13.png'
 } else {*/
-    img_about.src = 'https://github.com/AbdelrahmanYousry-1/Auto-Car/releases/download/videos-v1/t3.mp4'
+    img_about.src = 'https://github.com/AbdelrahmanYousry-1/Auto-Car/releases/download/videos-v1/t2.mp4'
 //}
     img_about.autoplay = true;
     img_about.muted = true;
