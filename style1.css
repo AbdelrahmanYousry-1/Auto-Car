@@ -4194,10 +4194,12 @@ left: 15px;
         justify-content: center !important;
         align-items: center !important;
 
-        gap: 12px !important;
+        gap: 60px !important;
 
         margin: 0 !important;
         padding: 15px 8px !important;
+        padding-bottom: 0 !important;
+        padding-top: 40px !important;
     }
 
     .button_product1,
@@ -4210,7 +4212,9 @@ left: 15px;
 
         white-space: nowrap !important;
     }
-
+.button_product2{
+    padding: 9px 20px !important;
+}
 
     /* ---------- ARROWS ---------- */
 
