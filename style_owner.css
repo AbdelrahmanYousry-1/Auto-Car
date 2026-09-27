@@ -2,6 +2,28 @@
 
 
 
+
+html, body {
+    overflow-x: hidden;
+        max-width: 100%;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
 @media(max-width:480px){
 
 .nav{
@@ -9,6 +31,7 @@
     height: 70px;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 0;
     position: absolute;
     width: 100%;
@@ -51,6 +74,7 @@
     transform: translateX(100vw);
     transition: 2.5s;
     opacity: 0;
+    display: none;
 }
 .title_nav_show{
     transform: translateX(0) scale(1);
@@ -60,7 +84,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 180px;
+    align-content: center;
+    margin-left: 0px;
     margin-top: 5px;
    
 }
@@ -92,7 +117,7 @@ body > *{
 }
 .home{
     width: 100%;
-    min-height: 40vh;
+    min-height: 50vh;
     background-image: url('q3.jpg');
     background-size: cover;
     background-position: center;
@@ -139,10 +164,11 @@ body > *{
     justify-content: center;
     align-items: center;
     margin-left: 0px;
+    margin: 0 20px;
 }
 .me{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 }
 .div_tex{
@@ -150,6 +176,7 @@ body > *{
     flex-direction: column;
     text-align: left;
     margin-left: 25px;
+    margin-right: 5px;
 }
 .title_me{
     color: white;
@@ -218,14 +245,15 @@ body > *{
     margin-top: 0;
 }
 .div_three{
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .p_4{
     color: white;
     font-size: 9px;
     line-height: 1.6;
     margin-top: 15px;
+    margin-right: 17px;
 }
 .hr2{ 
     padding-top: 2px;
@@ -244,10 +272,10 @@ body > *{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 5px 0px;
+    margin: 5px 10px;
     color: white;
     row-gap: 18px;
-    column-gap: 27PX;
+    column-gap: 40PX;
     margin-left: 0px;
 }
 .div_t_1,
@@ -264,7 +292,7 @@ body > *{
 .fa-phone,
 .fa-envelope,
 .fa-map-location-dot {
-    font-size: 40px;
+    font-size: 35px;
 }
 .fa-phone {
     background: linear-gradient(90deg, #999999, #bbbbbb, #dfdfdf, #bbbbbb, #999999);
@@ -287,10 +315,10 @@ body > *{
 .phone_num,
 .email_text,
 .adress_text{
-    font-size: 15px;
+    font-size: 10px;
 }
 .email_text{
-    font-size: 15px;
+    font-size: 10px;
     word-break: break-all;
 }
 .frame{
