@@ -119,7 +119,6 @@
     font-size: 20px;
     padding-top: 0px;
     margin-top: -40px;
-    display: none;
 }
 .p_home{
     text-align: center;
@@ -295,7 +294,7 @@
     color: white;
 }
 .g_text{
-background: linear-gradient(90deg, #292929, #77736b, #d6d0c4, #77736b, #292929);
+background: linear-gradient(90deg, #fffffe, transparent, transparent, transparent, #fffffe);
     padding: 8px 12px;
     border-radius: 50px;
   /*  background: url(i3.png);*/
@@ -3991,13 +3990,14 @@ left: 15px;
     .title_home {
         width: 100% !important;
 
-        font-size: 27px !important;
+        font-size: 25px !important;
         line-height: 1.2 !important;
 
         text-align: center !important;
 
         margin: 0 !important;
         padding: 0 !important;
+        margin-top: -35px !important;
     }
 
     .p_home {
@@ -4386,7 +4386,7 @@ left: 15px;
         width: 100% !important;
         max-width: 100% !important;
 
-        height: 260px !important;
+        height: 300px !important;
 
         object-fit: cover !important;
 
