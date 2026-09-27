@@ -666,18 +666,17 @@ button8_footer.addEventListener('mouseout', function(){
 
 
 
-
+/*
 window.addEventListener('load' , function(){
 /*   if( window.innerWidth >= 481 && window.innerWidth <= 1441 ){
         return
-    } */
+    } 
     title_nav.remove()
    div_logo.style.cssText = '    margin-left: 47%;'
     nav.style.background = ' linear-gradient(90deg, transparent, transparent, #ffffff, transparent, transparent)  '
 })
 
-
-
+*/
 
 
 

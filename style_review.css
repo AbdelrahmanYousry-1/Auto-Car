@@ -9,11 +9,11 @@
 
 @media (max-width: 480px){
 .nav{
-    background: linear-gradient(90deg, #000000, #000000, #353535, #353535, #fffffe);
-    height: 55px;
+    background: linear-gradient(90deg, transparent, transparent, #ffffff, transparent, transparent);
+    height: 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 0;
     position: fixed;
     width: 100%;
@@ -56,6 +56,7 @@
     transform: translateX(100vw);
     transition: 2.5s;
     opacity: 0;
+    display: none;
 }
 .span_logo{
     color: white;
@@ -69,11 +70,11 @@
     justify-content: center;
     align-items: center;
     margin-left: 0px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .img_logo{
-    width: 65px !important;
-    height: 65px !important;
+    width: 75px !important;
+    height: 75px !important;
 }
 body{
     width: 100%;

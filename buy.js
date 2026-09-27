@@ -894,7 +894,7 @@ window.addEventListener('load' , function(){
     div_logo.style.cssText = '    margin-left: 47%;'
     nav.style.background = ' linear-gradient(90deg, transparent, transparent, #fffffe, transparent, transparent)  '
 })
-*/
+*//*
 
 window.addEventListener('load' , function(){
    if( window.innerWidth >= 481 && window.innerWidth <= 1441 ){
@@ -904,7 +904,7 @@ window.addEventListener('load' , function(){
    div_logo.style.cssText = '    margin-left: 47%;'
     nav.style.background = ' linear-gradient(90deg, transparent, transparent, #ffffff, transparent, transparent)  '
 })
-
+*/
 
 
 
