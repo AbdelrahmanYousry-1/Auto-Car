@@ -4,7 +4,6 @@
 
 
 html, body {
-    overflow-x: hidden;
         max-width: 100%;
 
 }
@@ -275,7 +274,7 @@ body > *{
     margin: 5px 10px;
     color: white;
     row-gap: 18px;
-    column-gap: 40PX;
+    column-gap: 20PX;
     margin-left: 0px;
 }
 .div_t_1,
@@ -289,10 +288,16 @@ body > *{
     row-gap: 10PX;
     align-items: center;
 }
+.div_t_1{
+    padding-left: 10px;
+}
+.div_t_3{
+    padding-right: 10px;
+}
 .fa-phone,
 .fa-envelope,
 .fa-map-location-dot {
-    font-size: 35px;
+    font-size: 30px;
 }
 .fa-phone {
     background: linear-gradient(90deg, #999999, #bbbbbb, #dfdfdf, #bbbbbb, #999999);
